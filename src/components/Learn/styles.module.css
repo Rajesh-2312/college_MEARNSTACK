@@ -1,0 +1,28 @@
+.button{
+	color: rgb(40, 43, 43);
+	background-color: rgb(254, 171, 171);
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border-radius: 10px;
+	border-width: 1px;
+	height: 35px;
+	padding-top: 5px;
+	border-color: white;
+}
+.button:hover{
+	background-color: rgb(234, 116, 116);
+	transition: 1.5s;
+}
+.navbar_bt1{
+	
+	padding-left: 7px;
+}
+.navbar_bt2{
+	
+	padding-left: 7px;
+}
+.navbar_bt3{
+	padding-left: 7px;	
+}
+.navbar_bt4{
+	padding-left: 7px;
+}

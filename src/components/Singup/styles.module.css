@@ -1,0 +1,157 @@
+.signup_container {
+	width: 100%;
+	min-height: 100vh;
+	background-color: #121212;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.signup_form_container {
+	width: 900px;
+	height: 500px;
+	display: flex;
+	border-radius: 10px;
+	box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+		0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+.left {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #1b1d1d;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.left h1 {
+	margin-top: 0;
+	color: rgb(255, 255, 255);
+	font-size: 35px;
+	align-self: center;
+}
+
+.right {
+	background-image: linear-gradient(
+		-225deg,
+    #bba6a6 0%,
+    #ff6363 29%,
+    #4d55f1 67%,
+    #a1aca2 100%
+	);
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(108, 106, 243);
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.form_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form_container h1 {
+	font-size: 40px;
+	margin-top: 0;
+}
+
+.input {
+	display: flex;
+	outline: none;
+	border: none;
+	width: 370px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	margin: 5px 0;
+	font-size: 14px;
+}
+.input:hover{
+	background-color: #98deff;
+}
+
+.error_msg {
+	width: 370px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 14px;
+	background-color: #f34646;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.white_btn,
+.green_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 100px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+}
+.white_btn:hover{
+	background-color: #00e2fb;
+	color: #ffffff;
+	transition: 1s;
+}
+
+.green_btn {
+	background-color: #ffffff;
+	color: rgb(0, 0, 0);
+	margin: 10px;
+}
+.green_btn:hover{
+	background-color: #07f884;
+	color: white;
+	transition: 0.7s;
+}
+.left h1{
+    background-image: linear-gradient(
+    -225deg,
+    #3b3939 0%,
+    #ff0000 29%,
+    #020bb8 67%,
+    #71ff7d 100%
+  );
+   	background-size: auto auto;
+  	background-clip: border-box;
+  	background-size: 200% auto;
+  	color: #fff;
+  	background-clip: text;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	animation: textclip 2s linear infinite;
+  	display: inline-block;
+	font-size: 50px;
+}
+@keyframes textclip {
+  to {
+    background-position:-200% center;
+  }
+}
+.issues{
+	color: white;
+	padding-top: 650px;
+	position: relative;
+	display: flex;
+
+}
+.issues h4{
+	font-size: 10px;
+}
+
+.issues h5{
+	font-size: 5px;
+}
